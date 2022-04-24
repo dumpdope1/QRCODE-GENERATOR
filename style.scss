@@ -1,0 +1,50 @@
+$outFit: 'Outfit', sans-serif;
+$White: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$drakBlue: hsl(218, 44%, 22%);
+
+h1, p, a, body {
+    font-family: $outFit;
+    font-weight: 200;
+    font-size: 1.18rem;
+}
+body{
+    background-color: $lightGray;
+    margin: 0;
+    padding: 0;
+}
+section {
+    background-color: hsl(212, 45%, 89%);
+}
+.qrmainContainer {
+    .qrContainer {
+        margin: 15.6rem 15.6rem auto 53.12rem;
+        padding: 10px;
+        position: relative;
+        background-color: hsl(0, 0%, 100%);
+        text-align: center;
+        font-family: $outFit;
+        width: 20rem;
+        height: 32rem;
+        border-radius: 0.938rem;
+        font-size: 1.563rem;
+        .qrCode {
+            width: 100%;
+            height: 50%;
+            border-radius: 0.7rem;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.bold {
+    font-family: $outFit;
+    font-weight: 700;
+    font-size: 1.563rem;
+}
+#footer {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 160px;
+}
