@@ -1,0 +1,48 @@
+h1, p, a, body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-size: 1.18rem;
+}
+
+body {
+  background-color: #d6e2f0;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #d6e2f0;
+}
+
+.qrmainContainer .qrContainer {
+  margin: 15.6rem 15.6rem auto 53.12rem;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  width: 20rem;
+  height: 32rem;
+  border-radius: 0.938rem;
+  font-size: 1.563rem;
+}
+
+.qrmainContainer .qrContainer .qrCode {
+  width: 100%;
+  height: 50%;
+  border-radius: 0.7rem;
+  margin-bottom: 15px;
+}
+
+.bold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 1.563rem;
+}
+
+#footer {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 160px;
+}
+/*# sourceMappingURL=style.css.map */
